@@ -1,0 +1,62 @@
+@import "variable";
+.app-header {
+  background-color: $primaryColor;
+
+  &.single-blog {
+    background-color: $white;
+  }
+
+  .logged-in{
+      line-height: 2.9;
+  }
+
+  .logged-out {
+    line-height: 4.6;
+  }
+
+  .blog-page {
+    line-height: 3.6;
+  }
+
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: $white;
+  }
+
+  .user-name {
+    margin-right: 10px;
+    font-weight: 500;
+  }
+
+  .profile {
+    cursor: pointer;
+  }
+}
+
+.danger {
+  color: $dangerColor;
+}
+
+.link {
+  color: $linkColor;
+  cursor: pointer;
+}
+
+.single-blog-page {
+  padding: 10px 30px 0 50px;
+  overflow-y: scroll;
+  .cover-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    background-color: $grey;
+  }
+  h3 {
+    font-weight: 700;
+  }
+  .content {
+    margin-top: 15px;
+    white-space: pre-line;
+  }
+
+}

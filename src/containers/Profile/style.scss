@@ -1,0 +1,15 @@
+@import "src/styles/styles";
+
+.profile-page {
+  padding: 40px 50px 0 50px;
+  border-color: transparent;
+  .ant-card {
+    border: unset;
+  }
+  .ant-card-body {
+    border-color: transparent;
+    border-radius: 5px;
+    box-shadow: $boxShadow;
+  }
+
+}

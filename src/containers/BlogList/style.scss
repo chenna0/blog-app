@@ -1,0 +1,65 @@
+@import "src/styles/variable";
+
+.blog-list {
+  padding: 0 70px 0 80px;
+  .title {
+    border: unset;
+    .ant-card-body {
+      padding: 23px 0;
+    }
+      .name {
+        font-size: 24px;
+        font-weight: 500;
+      }
+    .ant-input-affix-wrapper {
+      width: 250px;
+      margin-right: 10px;
+    }
+    .align-right {
+      float: right;
+    }
+  }
+}
+
+.blog-pagination {
+  padding: 10px;
+  text-align: center;
+  background-color: $grey;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  li:first-child {
+    float: left;
+  }
+  li:last-child {
+    float: right;
+  }
+}
+
+
+//Drawer Styles
+
+.blog-drawer {
+  .ant-drawer-header-title{
+    flex-direction: row-reverse;
+  }
+  label {
+    padding-bottom: 10px;
+  }
+  .ant-form-item {
+    margin-top: 5px;
+  }
+  .footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+    border-top: 1px solid $borderColor;
+    padding: 10px 16px;
+    background: $white;
+    text-align: right;
+    button:first-child {
+      margin-right: 8px;
+    }
+  }
+}
